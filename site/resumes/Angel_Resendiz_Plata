@@ -1,0 +1,78 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "black"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ángel
+    last_name: Reséndiz Plata
+    
+    # Define yourself in 4-5 words
+    motto: Necesito mejorar y crecer
+    
+    # Focus
+    focus: Aprendiendo programación y ciencia de datos
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      22 años como Auxiliar Administrativo en SEDENA, creando bases de datos para obtención de datos de diversa índole, sujetos a necesidades del usuario final, creación y redacción de documentación diversa, captura de datos en diversos aspectos
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent-lax3-2.xx.fbcdn.net/v/t1.6435-9/120768666_10224985532169710_728189502713266492_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGcWIO30C-KjHkPjmm8oJGMl6hKPx7wQi6XqEo_HvBCLoPZjSiD3cC2vzJtCuz8tGU&_nc_ohc=6ZDoHmWo8eEQ7kNvwE_mP5t&_nc_oc=AdlUhN9CWF0c-aEzife_qZlBy9zwjne_FRQzUkaQQzl7MPeDRCiTrJ1sLEbqqK-BqMM&_nc_zt=23&_nc_ht=scontent-lax3-2.xx&_nc_gid=XGJK8Crbko7H-f18lvsrBQ&oh=00_AfOhIFwTSeEFIpg2T03flo3Q3GkfBL4mD8B-T6PVmvmvFA&oe=687FC3BB
+
+    # Contact Information
+    email: angel.r.p.1978@hotmail.com #optional
+    phone: +52 55 13 88 57 21 #optional
+    website: No aplica #optional
+    linkedin: https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BoaYpjEjeSP22FiKPdBtcEg%3D%3D #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/AngelRP8791
+    
+    twitter: 'No aplica' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Basketbol      
+
+# Your previous education
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Auxiliar Administrativo
+      time: 2003 - 2024
+      company: SEDENA
+      # optional
+      company_logo:
+      details: |
+        Capturista de datos
+        Auxiliar Administrativo    
+
+# Your project portfolio
+projects:
+    intro:       
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline:      
+skills:
+    toolset:
+      - name: Paquetería oFFICE
+        level: 80%
